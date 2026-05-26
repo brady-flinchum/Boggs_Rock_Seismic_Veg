@@ -1,0 +1,14 @@
+# Requirements for Boggs Rock study
+# Install with:  pip install -r requirements.txt
+#
+# Note: GDAL is easiest to install via conda (see environment.yml).
+# If using pip only, install GDAL separately first:
+#   https://gdal.org/download.html
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+tabulate>=0.9
+# GDAL is listed here for reference but conda is strongly recommended:
+# GDAL>=3.6
